@@ -26,7 +26,9 @@ The config files are bundled with the build pack itself:
 * conf/php.ini
 
 
-Hacking
--------
+Meta
+----
 
-To change this buildpack, fork it on Github. Push up changes to your fork, then create a test app with --buildpack <your-github-url> and push to it.
+Big thanks to the guys behind the [php buildpack](https://github.com/heroku/heroku-buildpack-php)
+
+Released under the [MIT License](http://opensource.org/licenses/mit-license.php)
