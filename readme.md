@@ -16,6 +16,19 @@ For existing apps:
 $ heroku config:add BUILDPACK_URL=https://github.com/stevenosloan/heroku-buildpack-apache.git
 ```
 
+Basic Authentication
+--------------------
+
+in .htaccess add:
+```
+AuthUserFile /app/.htpasswd
+AuthType Basic
+AuthName "Restricted Access"
+Require valid-user
+```
+
+[generate](http://www.htaccesstools.com/htpasswd-generator/) and add an .htpasswd to root
+
 
 Configuration
 -------------
