@@ -8,7 +8,7 @@ Use
 
 For new apps:
 ```bash
-$ heroku create --stack cedar --buildpack https://github.com/stevenosloan/heroku-buildpack-ruby.git
+$ heroku create --stack cedar --buildpack https://github.com/stevenosloan/heroku-buildpack-apache.git
 ```
 
 For existing apps:
