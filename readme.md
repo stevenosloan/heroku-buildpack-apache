@@ -1,3 +1,5 @@
+> Old Software is Old -- this is unmaintained and left for posterity
+
 Apache+PHP build pack
 ========================
 
